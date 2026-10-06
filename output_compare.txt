@@ -1,0 +1,13 @@
+=== Given example (k=3, N=12) ===
+                        Min Heap  Pairwise
+Comparisons                   21        18
+Element moves                 12        20
+Max heap size                  3         -
+Max temp array size            -        12
+
+=== Scaling with k (each list has 100 sorted elements) ===
+     k       N    Heap comps  Pairwise comps  Pairwise moves
+     3     300           597             497             500
+    10    1000          6166            5341            5400
+    50    5000         53431          126258          127400
+   200   20000        291812         1989902         2009900

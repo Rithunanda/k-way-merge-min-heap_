@@ -1,0 +1,17 @@
+Initial heap : [10, 20, 15]  (size=3, comps=2)
+Step  1: extracted  10 (L1) -> heap [15, 20, 30]  (size=3, comps so far=4)
+Step  2: extracted  15 (L3) -> heap [20, 30, 35]  (size=3, comps so far=6)
+Step  3: extracted  20 (L2) -> heap [30, 35, 40]  (size=3, comps so far=8)
+Step  4: extracted  30 (L1) -> heap [35, 40, 50]  (size=3, comps so far=10)
+Step  5: extracted  35 (L3) -> heap [40, 50, 55]  (size=3, comps so far=12)
+Step  6: extracted  40 (L2) -> heap [50, 55, 60]  (size=3, comps so far=14)
+Step  7: extracted  50 (L1) -> heap [55, 60, 70]  (size=3, comps so far=16)
+Step  8: extracted  55 (L3) -> heap [60, 70, 75]  (size=3, comps so far=18)
+Step  9: extracted  60 (L2) -> heap [70, 75, 80]  (size=3, comps so far=20)
+Step 10: extracted  70 (L1) -> heap [75, 80]  (size=2, comps so far=21)
+Step 11: extracted  75 (L3) -> heap [80]  (size=1, comps so far=21)
+Step 12: extracted  80 (L2) -> heap []  (size=0, comps so far=21)
+
+Merged output   : [10, 15, 20, 30, 35, 40, 50, 55, 60, 70, 75, 80]
+Comparisons     : 21
+Max heap size   : 3

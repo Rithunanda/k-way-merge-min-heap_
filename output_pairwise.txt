@@ -1,0 +1,6 @@
+Merge 1: comparisons=7, moves=8, result=[10, 20, 30, 40, 50, 60, 70, 80]
+Merge 2: comparisons=11, moves=12, result=[10, 15, 20, 30, 35, 40, 50, 55, 60, 70, 75, 80]
+
+Merged output : [10, 15, 20, 30, 35, 40, 50, 55, 60, 70, 75, 80]
+Comparisons   : 18
+Element moves : 20
